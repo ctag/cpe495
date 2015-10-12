@@ -1,0 +1,8 @@
+October – Continue Research and establish contact with our customer
+November—Begin Construction for our prototype. (Built towards Go/No Go)
+December—Evaluating Go/No Go milestone. 
+January—Continue the development of hardware systems.
+February—Integration testing between the hardware and software
+March—Implement final changes and 
+April—Conduct a case study 
+May—Deliver the Final Product
