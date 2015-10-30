@@ -1,6 +1,6 @@
 # cpe495
 
-![Project Logo](https://raw.githubusercontent.com/ctag/cpe495/master/logo/logo.svg)
+![Project Logo](https://raw.githubusercontent.com/ctag/cpe495/master/logo/logo.png)
 
 UAH CPE495 "Adaptive H.I.D." senior design team.
 
