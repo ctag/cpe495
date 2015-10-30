@@ -8,7 +8,7 @@ UAH CPE495 "Adaptive H.I.D." senior design team.
 
 * All paths and filenames should be camelCase.
 * No binary files, they don't play well with git.
-* * Images are an exception.
+    * Images are an exception.
 
 ## Git Structure
 

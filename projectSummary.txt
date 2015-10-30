@@ -1,0 +1,4 @@
+Adaptive HID
+Project Summary
+
+Design a set of adaptive interface devices for modern computers with readily available consumer machinery and products. The product will have a focus on affordability, iterative design, and easy operation. Construct and test the devices for viability in general use; then generate a case study on the effectiveness of this approach to bringing adaptive technology to a larger audience.
