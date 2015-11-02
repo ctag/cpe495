@@ -13,7 +13,7 @@ CPE 495 | 10/30/2015
 
 ### Project Status
 
-	This week we were able to schedule a meet with our customer, UCP. We will be meeting with an Assistive Technology Specialist. While meeting with the customer is our primary concern for the time being, some progress has also been made on software development. We are currently researching existing software for text prediction which can be used to increase functionality of both our product hopefully existing products already owned and used.
+This week we were able to schedule a meeting with our customer, UCP. We will be meeting with an Assistive Technology Specialist. While meeting with the customer is our primary concern for the time being, some progress has also been made on software development. We are currently researching existing software for text prediction which can be used to increase functionality of both our product hopefully existing products already owned and used.
 
 
 ### Difficulties Encountered
