@@ -28,7 +28,7 @@ Tentatively:
 * Christopher Bero
 	* Get set up with microcontroller hardware and begin circuit designs for sliding keyboard.
 * John Gould
-	* Work with Christopher Bero and Michael Baldwing to make sure the initial hardware and software systems are compatible from a systems view.
+	* Work with Christopher Bero and Michael Baldwin to make sure the initial hardware and software systems are compatible from a systems view.
 * Bryant Johnson
 	* Continue work on tests for both hardware and software prototypes.
 * Michael Baldwin

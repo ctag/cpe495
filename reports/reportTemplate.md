@@ -2,7 +2,7 @@
 
 Class | Week
 ----- | ----
-CPE 495 | 11/2/2015
+CPE 495 | 9 Nov. 2015 -- 14 Nov. 2015
 
 ### Adaptive H.I.D.
 
@@ -35,6 +35,7 @@ Put here any trouble we had while accomplishing work during the previous sprint/
 
 <!---
 Next Sprint should be a list of tasks that each member is going to work towards for the upcomming week.
+Make sure to email members on Thursday or Friday so that they can respond with their most recent progress.
 -->
 
 * Christopher Bero: Task
