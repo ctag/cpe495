@@ -1,8 +1,8 @@
-## Progress Report 6
+## Progress Report 7
 
 Class | Week
 ----- | ----
-CPE 495 | 9 Nov. 2015 -- 14 Nov. 2015
+CPE 495 | 16 Nov. 2015 -- 20 Nov. 2015
 
 ### Adaptive H.I.D.
 
