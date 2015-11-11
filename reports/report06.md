@@ -2,7 +2,7 @@
 
 Class | Week
 ----- | ----
-CPE 495 | 9 Nov. 2015 -- 14 Nov. 2015
+CPE 495 | 9 Nov. 2015 -- 13 Nov. 2015
 
 ### Adaptive H.I.D.
 
@@ -20,6 +20,10 @@ Make sure to use *asterisks* to create italics on the member of whoever created 
 <!---
 Project Status is a review of what was accomplished last week and a descript of where we stand going into this sprint. A comparison between goals and actual accomplishments is a good idea.
 -->
+
+This week we
+
+* Used the information from our customer meeting to finish the Specifications and Requirements document.
 
 ### Difficulties Encountered
 

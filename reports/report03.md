@@ -2,7 +2,7 @@
 
 Class | Week
 ----- | ----
-CPE 495 | 10/23/2015
+CPE 495 | 19 Oct. 2015 - 23 Oct. 2015
 
 ### Adaptive H.I.D.
 
