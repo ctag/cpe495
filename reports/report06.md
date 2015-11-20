@@ -10,10 +10,10 @@ CPE 495 | 9 Nov. 2015 -- 13 Nov. 2015
 Make sure to use *asterisks* to create italics on the member of whoever created the report
 -->
 
-* Christopher Bero
+* *Christopher Bero*
 * Bryant Johnson
 * John Gould
-* *Michael Baldwin*
+* Michael Baldwin
 
 ### Project Status
 
@@ -24,6 +24,7 @@ Project Status is a review of what was accomplished last week and a descript of 
 This week we
 
 * Used the information from our customer meeting to finish the Specifications and Requirements document.
+* Began the Go/No Go hardware and software construction.
 
 ### Difficulties Encountered
 
@@ -32,6 +33,8 @@ Difficulties Encountered is required. Other teams report losing points if this i
 Put here any trouble we had while accomplishing work during the previous sprint/week.
 -->
 
+* The MSP430 USB toolkit isn't compiling. We need to check with some dependencies to correct this.
+* The open source softwares that we're investigating are difficult to break ground with. We need to follow up with them on mailing lists to get a scope of tasks involved in compiling current development builds.
 
 
 ### Next Sprint
@@ -41,10 +44,14 @@ Next Sprint should be a list of tasks that each member is going to work towards 
 Make sure to email members on Thursday or Friday so that they can respond with their most recent progress.
 -->
 
-* Christopher Bero: Task
-* Michael Baldwin: Task
-* John Gould: Task
-* Bryant Johnson: Task
+* Christopher Bero:
+    * Install MSP430 USB toolkit. Flash initial firmware tests.
+* Michael Baldwin: 
+    * Work on contacting maintainers of open source projects.
+* John Gould:
+    * Help with bringing in software to the wiki.
+* Bryant Johnson:
+    * Not at meeting. Carried over from last week.
 
 
 
