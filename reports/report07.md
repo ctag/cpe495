@@ -24,6 +24,8 @@ We've completed another hardware purchase order for prototyping materials (PCB a
 
 We have an initial MSP-USB firmware demo and are working on the SPI tools to upload it to our experimenter board. 
 
+We are still looking for project maintainers to contact for our software research.
+
 ### Difficulties Encountered
 
 <!---
@@ -43,7 +45,8 @@ Make sure to email members on Thursday or Friday so that they can respond with t
 * Christopher Bero:
     * Flash USB firmware demo to MSP430F5529.
     * Create 12-switch prototype circuit.
-* Michael Baldwin: Task
+* Michael Baldwin:
+    * Continuation of sprint 7.
 * John Gould: Task
 * Bryant Johnson: Task
 
