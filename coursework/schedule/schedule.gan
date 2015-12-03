@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2015-10-01" view-index="0" gantt-divider-location="508" resource-divider-location="300" version="2.7.1" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2014-12-01" view-index="0" gantt-divider-location="508" resource-divider-location="300" version="2.7.1" locale="en_US">
     <description/>
-    <view zooming-state="default:9" id="gantt-chart">
+    <view zooming-state="default:11" id="gantt-chart">
         <field id="tpd3" name="Name" width="62" order="0"/>
         <field id="tpd4" name="Begin date" width="20" order="1"/>
         <field id="tpd5" name="End date" width="17" order="2"/>
-        <option id="color.recent"><![CDATA[#3300ff #00ff66 #ff0000 #ccccff]]></option>
+        <option id="color.recent"><![CDATA[#000000 #ccccff #3300ff #00ff66 #ff0000]]></option>
     </view>
     <view id="resource-table">
         <field id="0" name="Name" width="50" order="0"/>
@@ -39,15 +39,12 @@
             <task id="464" name="Presentation" meeting="false" start="2015-10-14" duration="1" complete="0" expand="true"/>
             <task id="466" name="Participation" meeting="false" start="2015-10-14" duration="21" complete="0" expand="true"/>
         </task>
-        <task id="18" name="AT Research" color="#ff0000" meeting="false" start="2015-10-05" duration="29" complete="0" expand="true">
-            <task id="17" name="Hardware Systems" color="#3300ff" meeting="false" start="2015-10-05" duration="29" complete="0" expand="true">
-                <task id="85" name="Braille" color="#3300ff" meeting="false" start="2015-10-05" duration="29" complete="0" expand="true">
-                    <task id="87" name="Refreshable Display" meeting="false" start="2015-10-05" duration="29" complete="0" expand="true"/>
-                    <task id="86" name="Keyboard" meeting="false" start="2015-10-12" duration="22" complete="0" expand="true"/>
-                </task>
-                <task id="84" name="Sliding Keyboard" meeting="false" start="2015-10-05" duration="29" complete="0" expand="true"/>
-            </task>
-            <task id="81" name="Software Systems" color="#3300ff" meeting="false" start="2015-10-19" duration="15" complete="0" expand="true"/>
+        <task id="18" name="AT Research" color="#000000" meeting="false" start="2015-10-05" duration="29" complete="0" expand="true">
+            <task id="85" name="Braille" color="#ccccff" meeting="false" start="2015-10-05" duration="29" complete="0" expand="true"/>
+            <task id="87" name="Braille Refreshable Display" color="#ccccff" meeting="false" start="2015-10-05" duration="29" complete="0" expand="true"/>
+            <task id="86" name="Braille Keyboard" color="#ccccff" meeting="false" start="2015-10-12" duration="22" complete="0" expand="true"/>
+            <task id="84" name="Sliding Keyboard" meeting="false" start="2015-10-05" duration="29" complete="0" expand="true"/>
+            <task id="81" name="Software Interface Systems" color="#ccccff" meeting="false" start="2015-10-19" duration="15" complete="0" expand="true"/>
         </task>
         <task id="90" name="Customer Interface" meeting="false" start="2015-10-12" duration="208" complete="0" expand="true">
             <task id="92" name="Organization Outreach" meeting="false" start="2015-10-12" duration="22" complete="0" expand="true"/>
@@ -65,19 +62,18 @@
             </task>
             <task id="97" name="Product Delivery" meeting="false" start="2016-04-29" duration="8" complete="0" expand="true"/>
         </task>
-        <task id="1" name="Sliding Keyboard" color="#ff0000" meeting="false" start="2015-11-16" duration="199" complete="0" expand="true">
-            <task id="427" name="Partslist" meeting="false" start="2015-11-16" duration="15" complete="0" expand="true">
+        <task id="1" name="Sliding Keyboard" color="#000000" meeting="false" start="2015-11-16" duration="175" complete="0" expand="true">
+            <task id="427" name="Partslist" color="#ccccff" meeting="false" start="2015-11-16" duration="15" complete="0" expand="true">
                 <depend id="16" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="16" name="Order Parts" color="#3300ff" meeting="false" start="2015-12-01" duration="30" complete="0" expand="true">
+            <task id="16" name="Order Parts" color="#ccccff" meeting="false" start="2015-12-01" duration="30" complete="0" expand="true">
                 <depend id="25" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="98" name="Firmware Development" meeting="false" start="2015-12-01" duration="8" complete="0" expand="true">
                 <depend id="25" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="25" name="Generate Prototype" color="#3300ff" meeting="false" start="2015-12-31" duration="30" complete="0" expand="true">
+            <task id="25" name="Generate Prototype" color="#ccccff" meeting="false" start="2015-12-31" duration="30" complete="0" expand="true">
                 <depend id="100" type="2" difference="0" hardness="Strong"/>
-                <depend id="525" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="100" name="Prototype Review" meeting="false" start="2016-01-30" duration="7" complete="0" expand="true">
                 <depend id="102" type="2" difference="0" hardness="Strong"/>
@@ -92,12 +88,12 @@
             <task id="106" name="User Testing" meeting="false" start="2016-03-23" duration="32" complete="0" expand="true">
                 <depend id="108" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="108" name="Create Final Product" color="#8cb6ce" meeting="false" start="2016-04-24" duration="31" complete="0" expand="true">
+            <task id="108" name="Create Final Product" color="#ccccff" meeting="false" start="2016-04-24" duration="8" complete="0" expand="true">
                 <depend id="110" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="110" name="Deliver Product" meeting="false" start="2016-05-25" duration="8" complete="0" expand="true"/>
+            <task id="110" name="Deliver Product" meeting="false" start="2016-05-02" duration="7" complete="0" expand="true"/>
         </task>
-        <task id="510" name="Braille Keyboard" meeting="false" start="2016-01-11" duration="115" complete="0" expand="true">
+        <task id="510" name="Braille Keyboard" color="#000000" meeting="false" start="2016-01-11" duration="115" complete="0" expand="true">
             <task id="513" name="Partslist" meeting="false" start="2016-01-11" duration="2" complete="0" expand="true">
                 <depend id="514" type="2" difference="0" hardness="Strong"/>
             </task>
@@ -161,16 +157,16 @@
             </task>
             <task id="1071" name="Deliver Product" meeting="false" start="2016-04-13" duration="22" complete="0" expand="true"/>
         </task>
-        <task id="3" name="Testing" color="#ff0000" meeting="false" start="2016-01-01" duration="60" complete="0" expand="true">
-            <task id="64" name="Hardware/Software Integration" color="#3300ff" meeting="false" start="2016-01-01" duration="60" complete="0" expand="true"/>
-            <task id="78" name="Conduct Unit Testing" color="#3300ff" meeting="false" start="2016-01-01" duration="60" complete="0" expand="true"/>
-            <task id="80" name="Receive Customer Feedback" color="#3300ff" meeting="false" start="2016-02-01" duration="29" complete="0" expand="true"/>
-            <task id="525" name="Evaluate Milestone" color="#00ff66" meeting="false" start="2016-01-30" duration="31" complete="0" expand="true">
+        <task id="3" name="Testing" color="#000000" meeting="false" start="2016-01-01" duration="60" complete="0" expand="true">
+            <task id="64" name="Hardware/Software Integration" color="#ccccff" meeting="false" start="2016-01-01" duration="60" complete="0" expand="true"/>
+            <task id="78" name="Conduct Unit Testing" color="#ccccff" meeting="false" start="2016-01-01" duration="60" complete="0" expand="true"/>
+            <task id="80" name="Receive Customer Feedback" color="#ccccff" meeting="false" start="2016-02-01" duration="29" complete="0" expand="true"/>
+            <task id="525" name="Evaluate Milestone" color="#ccccff" meeting="false" start="2016-01-30" duration="31" complete="0" expand="true">
                 <depend id="76" type="2" difference="0" hardness="Strong"/>
             </task>
         </task>
-        <task id="76" name="Delivery" color="#ff0000" meeting="false" start="2016-03-01" duration="69" complete="0" expand="true">
-            <task id="73" name="Implement Final Changes" color="#3300ff" meeting="false" start="2016-03-01" duration="61" complete="0" expand="true">
+        <task id="76" name="Delivery" color="#000000" meeting="false" start="2016-03-01" duration="69" complete="0" expand="true">
+            <task id="73" name="Implement Final Changes" color="#ccccff" meeting="false" start="2016-03-01" duration="61" complete="0" expand="true">
                 <depend id="75" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="75" name="Deliver Final Product" color="#00ff66" meeting="false" start="2016-05-01" duration="8" complete="0" expand="true"/>
