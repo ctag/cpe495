@@ -4,6 +4,10 @@
 # Bero
 .~*
 *~
+*.ewd
+*.ewp
+*.cbp
+*.layout
 
 # Object files
 *.o
