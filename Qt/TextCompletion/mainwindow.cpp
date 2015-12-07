@@ -18,6 +18,8 @@ MainWindow::MainWindow(QWidget *parent) :
     connect(ui->pushButton_4, SIGNAL(clicked()), this, SLOT(press3()));
     connect(ui->pushButton_5, SIGNAL(clicked()), this, SLOT(press4()));
     connect(ui->pushButton_6, SIGNAL(clicked()), ui->lineEdit, SLOT(clear()));
+
+    ui->lineEdit->installEventFilter(this);
 }
 
 MainWindow::~MainWindow()
@@ -37,7 +39,7 @@ void MainWindow::print(QString *argv)
 SQLWorker::SQLWorker()
 {
     db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("C:\\test.db");
+    db.setDatabaseName("test.db");
 }
 
 SQLWorker::~SQLWorker(){}
@@ -96,10 +98,28 @@ void MainWindow::pressE()
 
 bool MainWindow::eventFilter(QObject *target, QEvent *event)
 {
-    if (event->type() = QEvent::KeyPress)
+    if (target == ui->lineEdit) // This is the input line
     {
-        QKeyEvent *k = (QKeyEvent*)event;
-
+        if (event->type() == QEvent::KeyPress) // This is a keypress
+        {
+            QKeyEvent *key = static_cast<QKeyEvent*>(event);
+            if (key->text() == "{")
+            {
+                qDebug() << "Here: " << key->key();
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        else
+        {
+            return false;
+        }
     }
-    return QObject::event(event);
+    else
+    {
+        return QMainWindow::eventFilter(target, event);
+    }
 }

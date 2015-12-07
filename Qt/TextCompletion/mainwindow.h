@@ -4,6 +4,8 @@
 #include <QMainWindow>
 #include <QtSql/QtSql>
 #include <QMessageBox>
+#include <QKeyEvent>
+#include <QDebug>
 
 namespace Ui {
 class MainWindow;
@@ -19,6 +21,10 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    //void keyPressEvent(QKeyEvent * event);
+
+protected:
+    bool eventFilter(QObject *target, QEvent *event);
 
 private slots:
     void print(QString *argv);
@@ -43,4 +49,5 @@ signals:
 private:
     QSqlDatabase db;
 };
+
 #endif // MAINWINDOW_H
