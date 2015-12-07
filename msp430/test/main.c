@@ -210,9 +210,10 @@ void main (void)
 	GPIO_setAsOutputPin(GPIO_PORT_P4, GPIO_PIN7);
 	GPIO_setAsInputPinWithPullDownResistor(LEFT_BUTTONS_PORT, LEFT_BUTTONS_PINS);
 	GPIO_setAsInputPinWithPullDownResistor(RIGHT_BUTTONS_PORT, RIGHT_BUTTONS_PINS);
-	GPIO_enableInterrupt(LEFT_BUTTONS_PORT, LEFT_BUTTONS_PINS);
+	/*GPIO_enableInterrupt(LEFT_BUTTONS_PORT, LEFT_BUTTONS_PINS);
 	GPIO_clearInterrupt(LEFT_BUTTONS_PORT, LEFT_BUTTONS_PINS);
 	GPIO_selectInterruptEdge(LEFT_BUTTONS_PORT, LEFT_BUTTONS_PINS, GPIO_LOW_TO_HIGH_TRANSITION);
+	*/
 
 	while (1)
 	{
@@ -224,22 +225,27 @@ void main (void)
 			case ST_ENUM_ACTIVE:
 
 				// Enter LPM0 w/interrupt, until a keypress occurs
-				__bis_SR_register(LPM0_bits + GIE);
+				//__bis_SR_register(LPM0_bits + GIE);
 
 				/************* HID keyboard portion ************************/
+
+				GPIO_setOutputLowOnPin(GPIO_PORT_P4, GPIO_PIN7);
+				GPIO_setOutputLowOnPin(GPIO_PORT_P1, GPIO_PIN0);
 				if (leftPressed())
 				{
 					inputDebounce();
 					if (leftPressed())
 					{
-						toggleRedLED();
+						GPIO_setOutputHighOnPin(GPIO_PORT_P1, GPIO_PIN0);
 						while (leftPressed() && !rightPressed()); // spin wait for both paddles to hit a switch
 						inputDebounce();
 						if (leftPressed() && rightPressed())
 						{
-							toggleGreenLED();
+							GPIO_setOutputHighOnPin(GPIO_PORT_P4, GPIO_PIN7);
 							int left = getLeft();
 							int right = getRight();
+							if (left < 0 || right < 0)
+								continue;
 							int dataInt = (left*6)+right+97;
 							//itoa(dataInt, charBuf, 10);
 							charBuf[0] = dataInt;
@@ -254,12 +260,15 @@ void main (void)
 								keySendComplete = FALSE;
 							}
 							blinkGreenLED();
-							toggleGreenLED();
+							GPIO_setOutputLowOnPin(GPIO_PORT_P4, GPIO_PIN7);
 						}
-						toggleRedLED();
+						GPIO_setOutputLowOnPin(GPIO_PORT_P1, GPIO_PIN0);
 					}
 				}
-				while (leftPressed() || rightPressed()); // reset first
+				while (leftPressed() && rightPressed()) // reset first
+				{
+					inputDebounce();
+				}
 
 
 //					button1StringLength = strlen((const char *)button1Buf);
@@ -292,7 +301,7 @@ void main (void)
 			case ST_PHYS_DISCONNECTED:
 			case ST_ENUM_SUSPENDED:
 			case ST_PHYS_CONNECTED_NOENUM_SUSP:
-				__bis_SR_register(LPM3_bits + GIE);
+				//__bis_SR_register(LPM3_bits + GIE);
 				_NOP();
 				break;
 
