@@ -27,7 +27,7 @@ protected:
     bool eventFilter(QObject *target, QEvent *event);
 
 private slots:
-    void print(QString *argv);
+    void print(QString *argv, int argc);
     void press0();
     void press1();
     void press2();
@@ -45,7 +45,7 @@ public:
 public slots:
     void doWork(QString arg);
 signals:
-    void finished(QString *argv);
+    void finished(QString *argv, int argc);
 private:
     QSqlDatabase db;
 };
