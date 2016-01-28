@@ -1,8 +1,8 @@
-## Sprint 5 Hours - Christopher Bero
+## Sprint XX Hours - Member Name
 
 Class | Week
 ----- | ----
-CPE 495 | 1 Oct. 2015 -- 7 Oct. 2015
+CPE 495 | X Feb. 2016 - X Feb. 2016
 
 ### Sprint Stories
 
@@ -21,9 +21,22 @@ Format this however you wish. Notes should be somewhat details descriptions of w
 <br> elements are line breaks to extend the document, make sure to adjust them.
 -->
 
-I love working on such and such.
+#### X Feb. 2016
 
-<br><br><br><br><br><br>
+* Item 1
+	* Hours
+* I love working on such and such.
+	* Hours
+
+#### Y Feb. 2016
+
+* Item 1
+	* Hours
+* I love working on such and such.
+	* Hours
+
+#### Total Hours: X
+
 <br><br><br><br><br><br>
 
 ---
