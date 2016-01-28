@@ -46,9 +46,9 @@ Make sure to email members on Thursday or Friday so that they can respond with t
     * Flash USB firmware demo to MSP430F5529.
     * Create 12-switch prototype circuit.
 * Michael Baldwin:
-    * Continuation of sprint 7.
-* John Gould: Task
-* Bryant Johnson: Task
+    * Continuation of sprint 6.
+* John Gould:  Continuation of sprint 6
+* Bryant Johnson:  Finalize the interim report document. 
 
 
 
