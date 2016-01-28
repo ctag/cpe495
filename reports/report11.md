@@ -20,7 +20,9 @@ Make sure to use *asterisks* to create italics on the member of whoever created 
 Project Status is a review of what was accomplished last week and a description of where we stand going into this sprint. A comparison between goals and actual accomplishments is a good idea.
 -->
 
-We have delivered a regurgitation of last semesters presentation, as requested. We are now spinning back up work on the second keyboard prototype and application software.
+We are working on our topical presentation, we will discuss the prospective future of consumer 3d printing with the class as well as the tests and findings we obtained through operation of our own printer.
+
+The firmware is prepared for another keyboard prototype, which will have components laser cut on the 26th and 3d printed on the 27th. We need more mx switches for prototyping, a purchase order is being assembled, will likely be sent next week.
 
 ### Difficulties Encountered
 
@@ -29,7 +31,7 @@ Difficulties Encountered is required. Other teams report losing points if this i
 Put here any trouble we had while accomplishing work during the previous sprint/week.
 -->
 
-Everything went fine, thanks for asking.
+Continual time conflicts create delays in our group meetings. 
 
 ### Next Sprint
 
@@ -45,7 +47,7 @@ Make sure to email members on Thursday or Friday so that they can respond with t
 * John Gould:
     * Mediate testing and integration for hardware and software testing.
 * Bryant Johnson:
-    * Polyfill between hardware and software as support.
+    * Contact TASC to schedule a design review meeting. 
 
 
 

@@ -51,7 +51,7 @@ Make sure to email members on Thursday or Friday so that they can respond with t
 * John Gould:
     * Help with bringing in software to the wiki.
 * Bryant Johnson:
-    * Not at meeting. Carried over from last week.
+    * Carried over from last week. Additionally, work on the interim report. 
 
 
 

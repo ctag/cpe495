@@ -47,8 +47,10 @@ Make sure to email members on Thursday or Friday so that they can respond with t
     * Create 12-switch prototype circuit.
 * Michael Baldwin:
     * Continuation of sprint 6.
-* John Gould:  Continuation of sprint 6
-* Bryant Johnson:  Finalize the interim report document. 
+* John Gould:
+    * Continuation of sprint 6.
+* Bryant Johnson:
+    * Finalize interim report for CPE 495. 
 
 
 
