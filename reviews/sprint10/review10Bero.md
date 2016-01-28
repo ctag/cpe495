@@ -2,7 +2,7 @@
 
 Class | Week
 ----- | ----
-CPE 495 | 20 Jan. 2016 - 26 Jan. 2016
+CPE 496 | 20 Jan. 2016 - 26 Jan. 2016
 
 ### Sprint Stories
 
@@ -10,12 +10,18 @@ CPE 495 | 20 Jan. 2016 - 26 Jan. 2016
 * Try to base loops on base ACLK speed.
 * Finalize plans for second sliding keyboard prototype
 
-### Hours
-
-12 hours were spent this sprint on sprint stories.
-
 ### Task Notes
 
+#### 26 Jan. 2016
+
+* Class
+    * 3 hours
+* Generated and laser cut a profile template for keyboard-2.
+    * 4 hours
+* Found a local company to supply acrylic sheets for laser cutting the keyboard.
+    * 3 hours
+
+#### Hours total: 10
 
 
 
