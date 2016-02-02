@@ -22,7 +22,9 @@ Project Status is a review of what was accomplished last week and a description 
 
 We are working on our topical presentation, we will discuss the prospective future of consumer 3d printing with the class as well as the tests and findings we obtained through operation of our own printer.
 
-The firmware is prepared for another keyboard prototype, which will have components laser cut on the 26th and 3d printed on the 27th. We need more mx switches for prototyping, a purchase order is being assembled, will likely be sent next week.
+Current goal is to design and upload a website detailing our project's goals and progress. 
+
+We outlined our individual short term goals for this semester. 
 
 ### Difficulties Encountered
 
@@ -41,13 +43,13 @@ Make sure to email members on Thursday or Friday so that they can respond with t
 -->
 
 * Christopher Bero:
-    * Build second prototype keyboard.
+    * Finalize second prototype keyboard made of laser cut acrylic. Begin gathering footage for the Team Video. 
 * Michael Baldwin:
-    * Continue work on predictive text application.
+    * Begin construction of the website for the course. Continue work on predictive text application.
 * John Gould:
-    * Mediate testing and integration for hardware and software testing.
+    * Work on the Honors report. Mediate testing and integration for hardware and software testing.
 * Bryant Johnson:
-    * Contact TASC to schedule a design review meeting. 
+    * Update team bulletin board. Begin on construction of Team Poster. Contact TASC to schedule a design review meeting. 
 
 
 
