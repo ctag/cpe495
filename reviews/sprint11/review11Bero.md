@@ -1,4 +1,4 @@
-## Sprint 10 Hours - Christopher Bero
+## Sprint 11 Hours - Christopher Bero
 
 Class | Week
 ----- | ----
@@ -42,7 +42,7 @@ CPE 496 | 27 Jan. 2016 -- 2 Feb. 2016
 * Class
 	* 1.5 hours
 
-#### Hours total:
+#### Hours total: 14
 
 
 

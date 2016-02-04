@@ -10,8 +10,8 @@ CPE 496 | 27 Jan. 2016 -- 2 Feb. 2016
 Make sure to use *asterisks* to create italics on the member of whoever created the report
 -->
 
-* *Christopher Bero*
-* Bryant Johnson
+* Christopher Bero
+* *Bryant Johnson*
 * John Gould
 * Michael Baldwin
 
@@ -33,7 +33,7 @@ Difficulties Encountered is required. Other teams report losing points if this i
 Put here any trouble we had while accomplishing work during the previous sprint/week.
 -->
 
-Continual time conflicts create delays in our group meetings. 
+Continual time conflicts create delays in our group meetings. Additionally, we have continued to encounter issues with scheduling within the course, as there does not seem to be a central calendar where class times and locations are posted.
 
 ### Next Sprint
 
