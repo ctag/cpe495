@@ -18,19 +18,22 @@ module mountCavity()
 // Exterior profile of the entire mount
 module mountShell()
 {
-    holePlate=exteriorSize*1.5;
-	holeDiam = 3;
+    holePlate=exteriorSize*2;
+	holeDiam = 4;
+	holeOffset = (wallThickness + (holeDiam/2));
     union() {
-        %cube([wallThickness, exteriorSize, exteriorSize]); // Face plate
+        *cube([wallThickness, exteriorSize, exteriorSize]); // Face plate
+		translate([0, 0, (exteriorSize-wallThickness)])
+			cube([exteriorSize, exteriorSize, wallThickness]); // Face plate
         // Shift bottom mounting plate
 		translate([0, -((holePlate-exteriorSize)/2), 0])
             difference() {
                 cube([exteriorSize, holePlate, wallThickness]); // Bottom plate
 				// Distribute holes
-				translate([wallThickness, wallThickness, 0]) {
+				translate([holeOffset, holeOffset, 0]) {
 					for (xi=[0:1]) {
 						for (yi=[0:1]) {
-							translate([xi*(exteriorSize-(wallThickness*2)), yi*(holePlate-(wallThickness*2)), 0])
+							translate([xi*(exteriorSize-(holeOffset*2)), yi*(holePlate-(holeOffset*2)), 0])
 							cylinder(wallThickness, d=holeDiam);
 						}
 					}
@@ -44,12 +47,30 @@ module mountShell()
     }
 }
 
-
+module antiWarp(X, Y, Z, buffer, rows, cols)
+{
+	width=((X-(buffer*2))/(cols*2));
+	height=((Y-(buffer*2))/(rows*2));
+	translate([buffer, buffer, 0])
+	{
+		for (xcount = [0:(cols-1)] )
+		{
+			for (ycount = [0:(rows-1)])
+			{
+				translate([xcount*(width*2), ycount*(height*2), 0])
+					cube([width, height, Z]);
+			}
+		}
+	}
+}
 
 difference() {
     mountShell();
-    mountCavity();
+    *mountCavity();
+	antiWarp(exteriorSize+2, exteriorSize+2, 1.5, 1, 3, 3);
 }
+
+
 
 //minkowski() {
 //	cylinder(h=wallThickness, r=2);
