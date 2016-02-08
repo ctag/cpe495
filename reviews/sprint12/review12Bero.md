@@ -18,6 +18,29 @@ CPE 496 | 3 Feb. 2016 -- 9 Feb. 2016
 * Documentation
 	* 1 hour
 
+#### 4 Feb. 2016
+
+* keyswitch mounting CAD
+	* 2 hours
+
+#### 5 Feb. 2016
+
+* Laser Cutting Safety Class
+	 * 2 hours
+* Laser Cutting
+	* 2 hours
+
+#### 6 Feb. 2016
+
+* 3D Printing
+	* 6 hours
+
+#### 7 Feb. 2016
+
+* 3D Printing
+	* 2 hours
+
+
 #### Hours total:
 
 
