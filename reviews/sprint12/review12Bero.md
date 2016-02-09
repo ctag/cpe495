@@ -40,8 +40,14 @@ CPE 496 | 3 Feb. 2016 -- 9 Feb. 2016
 * 3D Printing
 	* 2 hours
 
+#### 8 Feb. 2016
 
-#### Hours total:
+* Troubleshooting 100W laser
+	* 7 hours
+* Class
+	* 1.5 hours
+
+#### Hours total: 23.5
 
 
 
