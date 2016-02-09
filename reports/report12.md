@@ -29,7 +29,7 @@ Difficulties Encountered is required. Other teams report losing points if this i
 Put here any trouble we had while accomplishing work during the previous sprint/week.
 -->
 
-Everything went fine, thanks for asking.
+We upgraded from a 30W to 100W chemical laser bed and have had huge difficulties working with the control software. DXF if the preferred format for migrating an SVG model to the laser, but DXF files exported by Inkscape fail to be processed. We're working on an export format such as PLT or HPGL, but both crash a python script in Inscape when invoked.
 
 ### Next Sprint
 
@@ -39,7 +39,7 @@ Make sure to email members on Thursday or Friday so that they can respond with t
 -->
 
 * Christopher Bero:
-    * Build second prototype keyboard.
+    * Build braille keyboard.
 * Michael Baldwin:
     * Continue work on predictive text application.
 * John Gould:
