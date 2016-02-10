@@ -47,7 +47,14 @@ CPE 496 | 3 Feb. 2016 -- 9 Feb. 2016
 * Class
 	* 1.5 hours
 
-#### Hours total: 23.5
+#### 9 Feb. 2016
+
+* Team Meeting
+	* 1 hour
+* Laser cutting and demo assembly
+	* 5 hours
+
+#### Hours total: 29.5
 
 
 
