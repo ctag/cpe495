@@ -15,7 +15,8 @@ CPE 496 | 3 Feb. 2016 -- 9 Feb. 2016
 
 #### 3 Feb. 2016
 
-* Documentation Updates
+* Documentation Updates - Sprint Reviews
+	* 1 hour
 * Set up meeting with TASC
 	* 2 hour
 
@@ -27,12 +28,9 @@ CPE 496 | 3 Feb. 2016 -- 9 Feb. 2016
 #### 6 Feb. 2016
 
 * Begin Team Poster Construction
-	* 1 Hour
-
-#### 7 Feb. 2016
-
-* Documentation Update
-	* 1 hours
+	* 1 hour
+* Documentation Update - Purchases
+	* 1 hour
 
 #### 9 Feb. 2016
 
@@ -41,7 +39,7 @@ CPE 496 | 3 Feb. 2016 -- 9 Feb. 2016
 * Laser cutting and demo assembly
 	* 5 hours
 	
-#### Hours total: 11
+#### Hours total: 12
 
 
 
