@@ -45,7 +45,7 @@ Make sure to email members on Thursday or Friday so that they can respond with t
 -->
 
 * Christopher Bero:
-    * Build braille keyboard.
+    * Work on laser and keyboard hardware.
 * Michael Baldwin:
     * Continue work on predictive text application.
 * John Gould:
