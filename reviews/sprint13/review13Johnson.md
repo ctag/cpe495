@@ -17,9 +17,9 @@ CPE 496 | 10 Feb. 2016 -- 16 Feb. 2016
 * Documentation Updates - Sprint Reviews
 	* 1 hour
 * Class
-	* 1.5 hour
-* Team Meeting
-	* 1 Hour
+	* 1 hour
+* Team Meeting - Hardware Design and prototyping
+	* 6 hours
 	
 #### 12 Feb. 2016
 
