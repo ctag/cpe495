@@ -24,7 +24,7 @@ CPE 496 | 10 Feb. 2016 -- 16 Feb. 2016
 #### 12 Feb. 2016
 
 * Meeting with TASC
-	* x hours
+	* 1.5 hours
 
 #### Hours total:
 
