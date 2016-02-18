@@ -31,8 +31,7 @@ CPE 496 | 10 Feb. 2016 -- 16 Feb. 2016
 	* 2 hours
 
 
-
-#### Hours total:
+#### Hours total: 12
 
 
 
