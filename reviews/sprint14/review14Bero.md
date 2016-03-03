@@ -7,7 +7,7 @@ CPE 496 | 17 Feb. 2016 -- 23 Feb. 2016
 ### Sprint Stories
 
 * Work on improved code base for msp430
-* finish next keyboard
+* Work on next keyboard
 
 ### Task Notes
 
@@ -18,7 +18,7 @@ CPE 496 | 17 Feb. 2016 -- 23 Feb. 2016
 * Team Meeting
 	* 1 hour
 
-#### Hours total:
+#### Hours total: 13
 
 
 
