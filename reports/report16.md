@@ -30,6 +30,8 @@ Difficulties Encountered is required. Other teams report losing points if this i
 Put here any trouble we had while accomplishing work during the previous sprint/week.
 -->
 
+Different tension springs were causing problems. Need to purchase 3mm couplers for the keyboards layers.
+Might need to buy spacers if not available. 
 Everything went fine, thanks for asking.
 
 ### Next Sprint
