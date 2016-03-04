@@ -21,6 +21,7 @@ Project Status is a review of what was accomplished last week and a description 
 -->
 
 During this sprint we will meet with our customer again and go over the next keyboard prototype.
+We went over various hardware design iterations. This sprint we tested the various methods of paddle actuation stiffness for the keyboard.
 
 ### Difficulties Encountered
 
