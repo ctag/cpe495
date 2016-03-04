@@ -31,8 +31,7 @@ Put here any trouble we had while accomplishing work during the previous sprint/
 -->
 
 Different tension springs were causing problems. Need to purchase 3mm couplers for the keyboards layers.
-Might need to buy spacers if not available. 
-Everything went fine, thanks for asking.
+Might need to buy spacers if not available. We were able to create a more streamlined solution for our laser cutter. Prototypes are being created at a much faster pace. 
 
 ### Next Sprint
 
