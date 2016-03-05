@@ -14,7 +14,25 @@ CPE 496 | 2 Mar. 2016 -- 8 Mar. 2016
 #### 2 Mar. 2016
 
 * Working at makerslocal
-	* 
+	* paperwork backlog
+	* laser files
+	* keyboard handle mount
+	* 3d printing repair
+	* hours: 8
+
+#### 3 Mar. 2016
+
+* Working at makerslocal (and into 4am 4th of March)
+	* Laser cutting
+	* Prototype keyboard 2 assembly
+	* hours: 10
+
+#### 4 Mar. 2016
+
+* TASC Meeting
+	* Got feed back
+	* Next meeting 14 March
+	* hours: 3
 
 #### Hours total:
 
