@@ -20,7 +20,8 @@ Make sure to use *asterisks* to create italics on the member of whoever created 
 Project Status is a review of what was accomplished last week and a description of where we stand going into this sprint. A comparison between goals and actual accomplishments is a good idea.
 -->
 
-We have delivered a regurgitation of last semesters presentation, as requested. We are now spinning back up work on the second keyboard prototype and application software.
+During this sprint we will meet with our customer again and go over the next keyboard prototype.
+We went over various hardware design iterations. This sprint we tested the various methods of paddle actuation stiffness for the keyboard.
 
 ### Difficulties Encountered
 
@@ -29,7 +30,8 @@ Difficulties Encountered is required. Other teams report losing points if this i
 Put here any trouble we had while accomplishing work during the previous sprint/week.
 -->
 
-Everything went fine, thanks for asking.
+Different tension springs were causing problems. Need to purchase 3mm couplers for the keyboards layers.
+Might need to buy spacers if not available. We were able to create a more streamlined solution for our laser cutter. Prototypes are being created at a much faster pace. 
 
 ### Next Sprint
 
