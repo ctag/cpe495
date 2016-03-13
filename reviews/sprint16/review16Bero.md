@@ -34,7 +34,18 @@ CPE 496 | 2 Mar. 2016 -- 8 Mar. 2016
 	* Next meeting 14 March
 	* hours: 3
 
-#### Hours total:
+#### 5-6 Mar. 2016
+
+* Team work-meeting
+	* Working on next keyboard design
+	* hours: 8
+
+#### 8 Mar. 2016
+
+* Working on firmware and button
+	* hours: 4
+
+#### Hours total: 33
 
 
 
