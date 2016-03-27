@@ -39,7 +39,8 @@ Make sure to email members on Thursday or Friday so that they can respond with t
 -->
 
 * Christopher Bero:
-    * Build second prototype keyboard.
+    * Move 3d printer to makers local again
+    * print button test base
 * Michael Baldwin:
     * Continue work on predictive text application.
 * John Gould:
