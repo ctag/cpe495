@@ -1,8 +1,8 @@
-## Sprint 17 Hours - Christopher Bero
+## Sprint 18 Hours - Christopher Bero
 
 Class | Week
 ----- | ----
-CPE 496 | 9 Mar. 2016 -- 15 Mar. 2016
+CPE 496 | 16 Mar. 2016 -- 22 Mar. 2016
 
 ### Sprint Stories
 
@@ -11,20 +11,20 @@ CPE 496 | 9 Mar. 2016 -- 15 Mar. 2016
 
 ### Task Notes
 
-#### 10 Mar. 2016
+#### 16 Mar. 2016
+
+* Working at makerslocal
+	* Hours 4
+
+#### 18 Mar. 2016
 
 * Working at makerslocal
 	* Hours 6
 
-#### 11 Mar. 2016
+#### 21 Mar. 2016
 
-* Working on firmware
-	* Hours 3
-
-#### 13 Mar. 2016
-
-* Laser cut next keyboard and 3d print button
-	* Hours 8
+* Working at makerslocal
+	* Hours 6
 
 #### Hours total:
 
