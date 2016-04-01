@@ -31,6 +31,7 @@ Put here any trouble we had while accomplishing work during the previous sprint/
 -->
 
 The laser cutter at makers local broke, we're standing by to use it again.
+Chris is out of town for the majority of this sprint.
 
 ### Next Sprint
 
@@ -40,7 +41,7 @@ Make sure to email members on Thursday or Friday so that they can respond with t
 -->
 
 * Christopher Bero:
-    * Build second prototype keyboard.
+    * Catch up on classwork and this project.
 * Michael Baldwin:
     * Continue work on predictive text application.
 * John Gould:
