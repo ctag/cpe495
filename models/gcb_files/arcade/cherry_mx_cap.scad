@@ -7,9 +7,9 @@ use <cap.scad>;
 wall_thickness = 1;
 
 // diameter of the plunger. ideally in mm
-plunger_diameter = 40;
+plunger_diameter = 60;
 // height of the plunger. ideally in mm
-plunger_height = 6;
+plunger_height = 8;
 
 // concave top? this will only work with diameter==22. ...can't be bothered with math right now.
 plunger_concave = false;
