@@ -8,6 +8,7 @@
 *.ewp
 *.cbp
 *.layout
+*.fcstd1
 
 # Object files
 *.o
