@@ -9,6 +9,7 @@
 *.cbp
 *.layout
 *.fcstd1
+*.stl
 
 # Object files
 *.o
