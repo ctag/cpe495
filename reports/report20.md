@@ -20,7 +20,7 @@ Make sure to use *asterisks* to create italics on the member of whoever created 
 Project Status is a review of what was accomplished last week and a description of where we stand going into this sprint. A comparison between goals and actual accomplishments is a good idea.
 -->
 
-We have delivered a regurgitation of last semesters presentation, as requested. We are now spinning back up work on the second keyboard prototype and application software.
+We have printed a fully functional button, updated it to have a lower profile.
 
 ### Difficulties Encountered
 
