@@ -31,12 +31,23 @@ module baseplate(){
 * concerned with the keycap per se.
 */
 module mx_mount(){
-	mx_height = 4.7; // measured from an actual CM storm cap
+	//mx_height = 4.7; // measured from an actual CM storm cap
+	mx_height = 5.4;
 	translate( [0,0,mx_height/2] ){
 		difference(){
 			cylinder( h=mx_height, r=6/2, center=true, $fn=360 );
 				cube( size=[1.17,4.1,mx_height+2], center=true );
 				cube( size=[4.1,1.17,mx_height+2], center=true );
 		}
+	}
+}
+
+module mx_mount_solid(){
+	//mx_height = 4.7; // measured from an actual CM storm cap
+	mx_height = 5.4;
+	translate( [0,0,mx_height/2] ){
+		//difference(){
+			cylinder( h=mx_height, r=6/2, center=true, $fn=360 );
+		//}
 	}
 }

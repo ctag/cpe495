@@ -6,9 +6,9 @@ use <../torus.scad>
 wall_thickness = 1;
 
 // diameter of the plunger
-plunger_diameter = 22;
+plunger_diameter = 80;
 // height of the plunger
-plunger_height = 5;
+plunger_height = 10;
 
 // concave top? this will only work with diameter==22. ...can't be bothered with math right now.
 plunger_concave =false;
@@ -27,29 +27,44 @@ mounting hole diameter = 1.13in (28.7mm)
 */
 
 
+//module plunger(d, h, concave){
+//	dFraction=d/10;
+//	dCurve=d/20;
+//	translate([0,0,-wall_thickness])
+//	difference(){
+//		difference(){
+//			union(){
+//				half_torus( r=dFraction, d=d );
+//				translate([0,0,-(dFraction)])
+//					cylinder( h=dFraction, r=d/2 - (dFraction), center=false);
+//				cylinder( h=h-(dFraction), r=d/2 , center=false);
+//			}
+//			*translate([0,0,wall_thickness])
+//				cylinder( h=h-(dFraction), r=d/2-1 , center=false);
+//		}
+//		*if( true == concave ){
+//			if( 22 == plunger_diameter ){
+//				// trial and error concave. TODO: recall basic trigonometry...
+//				translate([0,0,-d*2-1.3])
+//					sphere( r=d*2);
+//			}
+//		}
+//	}
+//}
+
 module plunger(d, h, concave){
-	dFraction=d/10;
-	dCurve=d/20;
+	dFraction=d/15;
 	translate([0,0,-wall_thickness])
-	difference(){
 		difference(){
 			union(){
-				half_torus( r=dCurve, d=d );
-				translate([0,0,-(dCurve)])
-					cylinder( h=dFraction, r=d/2 - (dCurve), center=false);
+				half_torus( r=dFraction, d=d );
+				translate([0,0,-dFraction])
+					cylinder( h=dFraction, r=d/2 - dFraction, center=false);
 				cylinder( h=h-(dFraction), r=d/2 , center=false);
 			}
-			translate([0,0,wall_thickness])
+			translate([0,0,(h-wall_thickness-(dFraction))])
 				cylinder( h=h-(dFraction), r=d/2-1 , center=false);
 		}
-		if( true == concave ){
-			if( 22 == plunger_diameter ){
-				// trial and error concave. TODO: recall basic trigonometry...
-				translate([0,0,-d*2-1.3])
-					sphere( r=d*2);
-			}
-		}
-	}
 }
 
 plunger(d=plunger_diameter, h=plunger_height, concave=false);
