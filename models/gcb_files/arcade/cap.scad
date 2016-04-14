@@ -54,7 +54,7 @@ mounting hole diameter = 1.13in (28.7mm)
 
 module plunger(d, h, concave){
 	dFraction=d/15;
-	translate([0,0,-wall_thickness])
+	translate([0,0,-(h-(dFraction))+wall_thickness])
 		difference(){
 			union(){
 				half_torus( r=dFraction, d=d );

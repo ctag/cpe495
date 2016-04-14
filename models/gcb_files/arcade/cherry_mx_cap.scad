@@ -9,7 +9,7 @@ wall_thickness = 1;
 // diameter of the plunger. ideally in mm
 plunger_diameter = 80;
 // height of the plunger. ideally in mm
-plunger_height = 7;
+plunger_height = 11;
 
 // concave top? this will only work with diameter==22. ...can't be bothered with math right now.
 plunger_concave = false;
@@ -49,22 +49,21 @@ module cherry_mx_plunger(d, h, concave, reinforcement){
 	plunger(d=d, h=h, concave=concave);
 	union() {
 		mx_mount();
-		difference() {
+		*difference() {
 			wall_box();
 			mx_mount_stabilizers(true);
 		}
-		mx_mount_stabilizers(false);
+		*mx_mount_stabilizers(false);
 		if( true == plunger_reinforcement ) {
-			translate([0,0,wall_thickness/2 ]) {
-				difference() {
-					cube([d-wall_thickness,wall_thickness*2,wall_thickness], center=true);
-					mx_mount_solid();
-				}
-				rotate([0,0,90])
-					difference() {
-						cube([d-wall_thickness,wall_thickness*2,wall_thickness], center=true);
-						mx_mount_solid();
+			translate([0,0, (wall_thickness/2) ]) {
+				for (R = [0:30:179]) {
+					rotate([0,0,R]) {
+						difference() {
+							cube([d+(wall_thickness*2),wall_thickness*3,wall_thickness], center=true);
+							mx_mount_solid();
+						}
 					}
+				}
 			}
 		}
 	}

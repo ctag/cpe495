@@ -32,7 +32,7 @@ module baseplate(){
 */
 module mx_mount(){
 	//mx_height = 4.7; // measured from an actual CM storm cap
-	mx_height = 5.4;
+	mx_height = 4.8;
 	translate( [0,0,mx_height/2] ){
 		difference(){
 			cylinder( h=mx_height, r=6/2, center=true, $fn=360 );
@@ -44,7 +44,7 @@ module mx_mount(){
 
 module mx_mount_solid(){
 	//mx_height = 4.7; // measured from an actual CM storm cap
-	mx_height = 5.4;
+	mx_height = 4.8;
 	translate( [0,0,mx_height/2] ){
 		//difference(){
 			cylinder( h=mx_height, r=6/2, center=true, $fn=360 );
