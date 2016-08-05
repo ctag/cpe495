@@ -62,8 +62,6 @@
  */
 #include "hal.h"
 
-
-
 /*********** Application specific globals **********************/
 volatile uint8_t leftSwitchPressed = FALSE;
 volatile uint8_t keySendComplete = TRUE;
@@ -153,17 +151,17 @@ bool rightPressed()
 
 int getLeft()
 {
-	if (GPIO_getInputPinValue(LEFT_BUTTONS_PORT, GPIO_PIN0))
+	if (GPIO_getInputPinValue(LEFT_BUTTONS_PORT, GPIO_PIN0) && GPIO_getInputPinValue(LEFT_BUTTONS_PORT, GPIO_PIN2))
 		return 0;
-	else if (GPIO_getInputPinValue(LEFT_BUTTONS_PORT, GPIO_PIN2))
+	else if (GPIO_getInputPinValue(LEFT_BUTTONS_PORT, GPIO_PIN2) && GPIO_getInputPinValue(LEFT_BUTTONS_PORT, GPIO_PIN3))
 		return 1;
-	else if (GPIO_getInputPinValue(LEFT_BUTTONS_PORT, GPIO_PIN3))
+	else if (GPIO_getInputPinValue(LEFT_BUTTONS_PORT, GPIO_PIN3) && GPIO_getInputPinValue(LEFT_BUTTONS_PORT, GPIO_PIN4))
 		return 2;
-	else if (GPIO_getInputPinValue(LEFT_BUTTONS_PORT, GPIO_PIN4))
+	else if (GPIO_getInputPinValue(LEFT_BUTTONS_PORT, GPIO_PIN4) && GPIO_getInputPinValue(LEFT_BUTTONS_PORT, GPIO_PIN5))
 		return 3;
-	else if (GPIO_getInputPinValue(LEFT_BUTTONS_PORT, GPIO_PIN5))
+	else if (GPIO_getInputPinValue(LEFT_BUTTONS_PORT, GPIO_PIN5) && GPIO_getInputPinValue(LEFT_BUTTONS_PORT, GPIO_PIN6))
 		return 4;
-	else if (GPIO_getInputPinValue(LEFT_BUTTONS_PORT, GPIO_PIN6))
+	else if (GPIO_getInputPinValue(LEFT_BUTTONS_PORT, GPIO_PIN6) && GPIO_getInputPinValue(LEFT_BUTTONS_PORT, GPIO_PIN0))
 		return 5;
 	else
 		return -1;
@@ -171,17 +169,17 @@ int getLeft()
 
 int getRight()
 {
-	if (GPIO_getInputPinValue(RIGHT_BUTTONS_PORT, GPIO_PIN0))
+	if (GPIO_getInputPinValue(RIGHT_BUTTONS_PORT, GPIO_PIN0) && GPIO_getInputPinValue(RIGHT_BUTTONS_PORT, GPIO_PIN1))
 		return 0;
-	if (GPIO_getInputPinValue(RIGHT_BUTTONS_PORT, GPIO_PIN1))
+	if (GPIO_getInputPinValue(RIGHT_BUTTONS_PORT, GPIO_PIN1) && GPIO_getInputPinValue(RIGHT_BUTTONS_PORT, GPIO_PIN2))
 		return 1;
-	if (GPIO_getInputPinValue(RIGHT_BUTTONS_PORT, GPIO_PIN2))
+	if (GPIO_getInputPinValue(RIGHT_BUTTONS_PORT, GPIO_PIN2) && GPIO_getInputPinValue(RIGHT_BUTTONS_PORT, GPIO_PIN3))
 		return 2;
-	if (GPIO_getInputPinValue(RIGHT_BUTTONS_PORT, GPIO_PIN3))
+	if (GPIO_getInputPinValue(RIGHT_BUTTONS_PORT, GPIO_PIN3) && GPIO_getInputPinValue(RIGHT_BUTTONS_PORT, GPIO_PIN4))
 		return 3;
-	if (GPIO_getInputPinValue(RIGHT_BUTTONS_PORT, GPIO_PIN4))
+	if (GPIO_getInputPinValue(RIGHT_BUTTONS_PORT, GPIO_PIN4) && GPIO_getInputPinValue(RIGHT_BUTTONS_PORT, GPIO_PIN5))
 		return 4;
-	if (GPIO_getInputPinValue(RIGHT_BUTTONS_PORT, GPIO_PIN5))
+	if (GPIO_getInputPinValue(RIGHT_BUTTONS_PORT, GPIO_PIN5) && GPIO_getInputPinValue(RIGHT_BUTTONS_PORT, GPIO_PIN0))
 		return 5;
 	else
 		return -1;
