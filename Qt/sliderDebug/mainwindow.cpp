@@ -63,8 +63,8 @@ void MainWindow::doRead()
             ui->checkBox_2->setText("GHIJKL");
             ui->checkBox_3->setText("MNOPQR");
             ui->checkBox_4->setText("STUVWX");
-            ui->checkBox_5->setText("YZ----");
-            ui->checkBox_6->setText("------");
+            ui->checkBox_5->setText("YZ1234");
+            ui->checkBox_6->setText("567890");
         }
         else
         {
@@ -108,19 +108,19 @@ void MainWindow::doRead()
             {
                 ui->checkBox_1->setText("Y");
                 ui->checkBox_2->setText("Z");
-                ui->checkBox_3->setText("-");
-                ui->checkBox_4->setText("-");
-                ui->checkBox_5->setText("-");
-                ui->checkBox_6->setText("-");
+                ui->checkBox_3->setText("1");
+                ui->checkBox_4->setText("2");
+                ui->checkBox_5->setText("3");
+                ui->checkBox_6->setText("4");
             }
             else if (buffer[1] == '5')
             {
-                ui->checkBox_1->setText("-");
-                ui->checkBox_2->setText("-");
-                ui->checkBox_3->setText("-");
-                ui->checkBox_4->setText("-");
-                ui->checkBox_5->setText("-");
-                ui->checkBox_6->setText("-");
+                ui->checkBox_1->setText("5");
+                ui->checkBox_2->setText("6");
+                ui->checkBox_3->setText("7");
+                ui->checkBox_4->setText("8");
+                ui->checkBox_5->setText("9");
+                ui->checkBox_6->setText("0");
             }
         }
     }

@@ -32,7 +32,7 @@
      </font>
     </property>
     <property name="text">
-     <string>CheckBox</string>
+     <string>ABCDEF</string>
     </property>
     <property name="iconSize">
      <size>
@@ -62,7 +62,7 @@
      </font>
     </property>
     <property name="text">
-     <string>CheckBox</string>
+     <string>GHIJKL</string>
     </property>
     <property name="iconSize">
      <size>
@@ -92,7 +92,7 @@
      </font>
     </property>
     <property name="text">
-     <string>CheckBox</string>
+     <string>MNOPQR</string>
     </property>
     <property name="iconSize">
      <size>
@@ -122,7 +122,7 @@
      </font>
     </property>
     <property name="text">
-     <string>CheckBox</string>
+     <string>STUVWX</string>
     </property>
     <property name="iconSize">
      <size>
@@ -152,7 +152,7 @@
      </font>
     </property>
     <property name="text">
-     <string>CheckBox</string>
+     <string>YZ1234</string>
     </property>
     <property name="iconSize">
      <size>
@@ -182,7 +182,7 @@
      </font>
     </property>
     <property name="text">
-     <string>CheckBox</string>
+     <string>567890</string>
     </property>
     <property name="iconSize">
      <size>
