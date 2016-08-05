@@ -10,6 +10,7 @@
 *.layout
 *.fcstd1
 *.stl
+*.db
 
 # Object files
 *.o
