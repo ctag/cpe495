@@ -171,8 +171,8 @@ module button_cap(d, h, reinforcement){
 		}
 		//translate([0, 0, -wall_thickness]) {
 			difference() {
-				cylinder(d=(d+(2*2)), h=wall_thickness);
-				cylinder(d=d, h=wall_thickness);
+				cylinder(d1=d, d2=(d+(2*2)), h=3);
+				cylinder(d1=40, d2=44, h=3);
 			}
 		//}
 	}
@@ -200,7 +200,21 @@ module preview()
 	}
 }
 
-
+module laser_base()
+{
+	difference() {
+		circle(d=base_diameter);
+		rotate([0, 0, 360/(bolt_count*2)]) { // Avoid collision with wire channel
+			for (r = [0:(1/bolt_count):1]) { // 0->1 in fractions
+				rotate([0, 0, r*360]) { // Spin item around origin
+					translate([(base_diameter/2)-5, 0, 0]) { 
+						circle(d=2.9); // threads
+					}
+				}
+			}
+		}
+	}
+}
 
 
 
@@ -210,6 +224,7 @@ module preview()
 
 //preview();
 //button_base();
-button_retainer();
-//button_cap();
+//button_retainer();
+button_cap();
+//laser_base();
 

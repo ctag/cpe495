@@ -1,7 +1,7 @@
 $fn=60;
 
-use <../keyboards/cherry/keycap_mount.scad>;
-use <cap.scad>;
+use <gcb_files/keyboards/cherry/keycap_mount.scad>;
+use <gcb_files/cap.scad>;
 
 // thickness of the wall.
 wall_thickness = 1;
