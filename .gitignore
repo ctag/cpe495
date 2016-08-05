@@ -11,6 +11,7 @@
 *.fcstd1
 *.stl
 *.db
+*.eps
 
 # Object files
 *.o
