@@ -19,7 +19,7 @@ wall_thickness = 1;
 plunger_diameter = 80;
 
 // height of the plunger. ideally in mm
-plunger_height = 12;
+plunger_height = 10;
 
 // put a cross under the cap for reinforcement. it was done very quick and dirty just so you can add a better one if you need by looking at the code.
 plunger_reinforcement = true;
@@ -131,12 +131,17 @@ module button_cap(d, h, reinforcement){
 	d=plunger_diameter;
 	h=plunger_height;
 	reinforcement=plunger_reinforcement;
+	// Overall item
 	union() {
+		
+		// Main plunger body
 		difference() {
 			plunger(d=d, h=h, concave=false);
-			translate([0, 0, -8])
-				cylinder(d1=30, d2=35, h=8);
+			translate([0, 0, (-(plunger_height-2))])
+				cylinder(d1=30, d2=35, h=(plunger_height-2));
 		}
+		
+		// Lower support bars and mx socket
 		translate([0, 0, (-8)]) {
 			union() {
 				mx_mount();
@@ -145,7 +150,7 @@ module button_cap(d, h, reinforcement){
 						for (R = [0:1]) {
 							rotate([0,0,R*90]) {
 								difference() {
-									cube([35,wall_thickness*3,wall_thickness], center=true);
+									cube([35,wall_thickness*4,wall_thickness], center=true);
 									mx_mount_solid();
 								}
 							}
@@ -154,13 +159,15 @@ module button_cap(d, h, reinforcement){
 				}
 			}
 		}
+		
+		// Upper support bars
 		union() {
 			if( true == plunger_reinforcement ) {
 				translate([0,0, (wall_thickness/2) ]) {
 					for (R = [0:1]) {
 						rotate([0,0,R*90]) {
 							difference() {
-								cube([d,wall_thickness*3,wall_thickness], center=true);
+								cube([d,wall_thickness*4,wall_thickness], center=true);
 								translate([0, 0, -(wall_thickness/2)])
 								cylinder(d=35, h=wall_thickness);
 							}
@@ -169,12 +176,12 @@ module button_cap(d, h, reinforcement){
 				}
 			}
 		}
-		//translate([0, 0, -wall_thickness]) {
-			difference() {
-				cylinder(d1=d, d2=(d+(2*2)), h=3);
-				cylinder(d1=40, d2=44, h=3);
-			}
-		//}
+		
+		// Retainer lip
+		*difference() {
+			cylinder(d1=d, d2=(d+(2*2)), h=3);
+			cylinder(d1=40, d2=44, h=3);
+		}
 	}
 }
 

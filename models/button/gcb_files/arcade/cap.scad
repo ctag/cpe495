@@ -8,7 +8,7 @@ wall_thickness = 1;
 // diameter of the plunger
 plunger_diameter = 80;
 // height of the plunger
-plunger_height = 10;
+plunger_height = 8;
 
 // concave top? this will only work with diameter==22. ...can't be bothered with math right now.
 plunger_concave =false;
@@ -54,17 +54,22 @@ mounting hole diameter = 1.13in (28.7mm)
 
 module plunger(d, h, concave){
 	dFraction=d/15;
-	translate([0,0,-(h-(dFraction))+wall_thickness])
-		difference(){
-			union(){
+	translate([0,0,-(h-(dFraction))+wall_thickness]) {
+		difference () {
+			// Main cap
+			union () {
 				half_torus( r=dFraction, d=d );
 				translate([0,0,-dFraction])
 					cylinder( h=dFraction, r=d/2 - dFraction, center=false);
 				cylinder( h=h-(dFraction), r=d/2 , center=false);
 			}
-			translate([0,0,(h-wall_thickness-(dFraction))])
+			
+			// Creates depression
+			translate([0,0,(h-wall_thickness-(dFraction))]) {
 				cylinder( h=h-(dFraction), r=d/2-1 , center=false);
+			}
 		}
+	}
 }
 
 plunger(d=plunger_diameter, h=plunger_height, concave=false);
