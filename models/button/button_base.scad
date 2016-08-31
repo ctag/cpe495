@@ -19,7 +19,7 @@ wall_thickness = 1;
 plunger_diameter = 80;
 
 // height of the plunger. ideally in mm
-plunger_height = 10;
+plunger_height = 6;
 
 // put a cross under the cap for reinforcement. it was done very quick and dirty just so you can add a better one if you need by looking at the code.
 plunger_reinforcement = true;
@@ -131,18 +131,19 @@ module button_cap(d, h, reinforcement){
 	d=plunger_diameter;
 	h=plunger_height;
 	reinforcement=plunger_reinforcement;
+	depth_offset=(plunger_height-2);
 	// Overall item
 	union() {
 		
 		// Main plunger body
 		difference() {
-			plunger(d=d, h=h, concave=false);
-			translate([0, 0, (-(plunger_height-2))])
-				cylinder(d1=30, d2=35, h=(plunger_height-2));
+			plunger(diameter=d, height=h, edge_radius=4);
+			translate([0, 0, (-depth_offset)])
+				cylinder(d1=30, d2=35, h=depth_offset);
 		}
 		
 		// Lower support bars and mx socket
-		translate([0, 0, (-8)]) {
+		*translate([0, 0, (-depth_offset)]) {
 			union() {
 				mx_mount();
 				if( true == plunger_reinforcement ) {
@@ -178,7 +179,7 @@ module button_cap(d, h, reinforcement){
 		}
 		
 		// Retainer lip
-		*difference() {
+		difference() {
 			cylinder(d1=d, d2=(d+(2*2)), h=3);
 			cylinder(d1=40, d2=44, h=3);
 		}

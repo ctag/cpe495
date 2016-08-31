@@ -52,24 +52,24 @@ mounting hole diameter = 1.13in (28.7mm)
 //	}
 //}
 
-module plunger(d, h, concave){
-	dFraction=d/15;
-	translate([0,0,-(h-(dFraction))+wall_thickness]) {
+module plunger(diameter, height, edge_radius){
+//	dFraction=diameter/15;
+	translate([0,0,-(height-(edge_radius))+wall_thickness]) {
 		difference () {
 			// Main cap
 			union () {
-				half_torus( r=dFraction, d=d );
-				translate([0,0,-dFraction])
-					cylinder( h=dFraction, r=d/2 - dFraction, center=false);
-				cylinder( h=h-(dFraction), r=d/2 , center=false);
+				half_torus( r=edge_radius, d=diameter);
+				translate([0,0,-edge_radius])
+					cylinder( h=edge_radius, r=diameter/2 - edge_radius, center=false);
+				cylinder( h=height-(edge_radius), r=diameter/2 , center=false);
 			}
 			
 			// Creates depression
-			translate([0,0,(h-wall_thickness-(dFraction))]) {
-				cylinder( h=h-(dFraction), r=d/2-1 , center=false);
+			translate([0,0,(height-wall_thickness-(edge_radius))]) {
+				cylinder( h=height-(edge_radius), r=diameter/2-1 , center=false);
 			}
 		}
 	}
 }
 
-plunger(d=plunger_diameter, h=plunger_height, concave=false);
+plunger(diameter=plunger_diameter, height=plunger_height, edge_radius=4);
