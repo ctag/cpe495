@@ -4,6 +4,10 @@
 
 UAH CPE495 "Adaptive H.I.D." senior design team.
 
+## Current Development
+
+Development on the 3.5mm adaptve button continues at https://github.com/ctag/clunke
+
 ## Git Formatting
 
 * All paths and filenames should be camelCase.
